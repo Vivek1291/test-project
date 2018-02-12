@@ -1,0 +1,44 @@
+<div id="sell-page">
+    <div class="valign-wrapper">
+        <div class="valign">
+        <form class="z-depth-2" name="productDetailForm" ng-submit="addProduct()"
+                autocomplete="off" novalidate>
+            <h1 class="form-heading">Product Detail</h1>
+    
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <input id="product-name" name="name" type="text" ng-model="product.name"
+                            ng-model-options="{ updateOn: 'blur' }">
+                        <label for="product-name">Name</label>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="input-field col s12 m12 l12">
+                    <input id="product-price" name="price" type="text" ng-model="product.price" required
+                            ng-model-options="{ updateOn: 'blur' }"/>
+                    <label for="product-price">Price</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m12 l12">
+                    <input id="product-img-url" name="image" type="text" ng-model="product.url" required
+                            ng-model-options="{ updateOn: 'blur' }"/>
+                    <label for="product-img-url">Image path</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m12 l12">
+                    <input id="product-age" name="age" type="text" ng-model="product.age" required
+                            ng-model-options="{ updateOn: 'blur' }"/>
+                    <label for="product-age">Kitten age</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m12 s12 l12 right-align">
+                    <button class="btn waves-effect waves-light" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>

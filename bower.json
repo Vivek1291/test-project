@@ -1,0 +1,30 @@
+{
+  "name": "test-project",
+  "description": "test-project",
+  "main": "client/app/js/app.js",
+  "authors": [
+    "Vivek Kumar Singh <viveksingh1291@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "kitten"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.9",
+    "jquery": "^3.3.1",
+    "angular-route": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "oclazyload": "^1.1.0",
+    "angular-materialize": "^0.2.2"
+  }
+}

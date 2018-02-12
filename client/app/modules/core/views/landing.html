@@ -1,0 +1,28 @@
+<div id="landing-page">
+    <div class="content-container row">
+        <div class="col s12 m6 l4" ng-repeat="list in products">
+            <div class="card">
+                <div class="image-container">
+                    <img ng-src="{{list.url}}" src="http://dirtypawzpetgrooming.com/wp-content/uploads/2012/01/kitten-little.jpg" alt="">
+                </div>
+                <div class="content-description-container row">
+                    <div class="col s12 m12 l12">
+                        <h2 class="title-text">{{list.name}}</h2>
+
+                        <main>
+                            <p class="content-description right-align">
+                                <span>Age: </span><span>{{list.age}}</span>
+                            </p>
+                        </main>
+                    </div>
+                </div>
+                <ul class="product-container row">
+                    <li class="col s12 m6">&#8377; {{list.price}}</li>
+                    <li class="col s12 m6 right-align">
+                        <button class="btn btn-primary waves-effect" ng-click=getItem($index)>Buy</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
