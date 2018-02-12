@@ -34,19 +34,7 @@
             },
             {
                 name: "Chole",
-                url: "https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-69-57b32c431e8a7__605.jpg",
-                price: '15',
-                age: '6 month'
-            },
-            {
-                name: "Lucy",
-                url: "https://steamuserimages-a.akamaihd.net/ugc/861727094491823008/BF4D73E6F5FCA88686AC1FFB496BC6B180E20335/",
-                price: '5',
-                age: '1.5year'
-            },
-            {
-                name: "Chole",
-                url: "http://dirtypawzpetgrooming.com/wp-content/uploads/2012/01/kitten-little.jpg",
+                url: "https://i.ytimg.com/vi/BgIgKcqPd4k/maxresdefault.jpg",
                 price: '15',
                 age: '6 month'
             }
