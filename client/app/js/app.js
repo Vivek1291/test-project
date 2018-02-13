@@ -51,10 +51,10 @@
         $scope.addProduct = function() {
          
             
-            console.log($scope.product);
             $scope.products.push($scope.product);
 
-            console.log($scope.products);
+            
+            $scope.product={};
         }
     }])
 
